@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: "Noto Sans JP", sans-serif;
+  background-color: #fffaf0;
+  color: #333;
+}
+
+/* --- ヘッダー --- */
+.hero {
+  background: url('https://images.unsplash.com/photo-1529070538774-1843cb3265df') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero-text {
+  padding-bottom: 100px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #b85c38;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* --- マスター紹介 --- */
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 60px 10%;
+  background: #fff5e1;
+}
+
+.about img {
+  width: 40%;
+  border-radius: 10px;
+}
+
+.about .text {
+  width: 50%;
+}
+
+/* --- メニュー --- */
+.menu {
+  padding: 80px 10%;
+  background: #fff;
+}
+
+.menu-category {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  align-items: center;
+}
+
+.menu-category img {
+  width: 40%;
+  border-radius: 10px;
+}
+
+.menu-list {
+  width: 50%;
+}
+
+.menu-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+/* --- ギャラリー --- */
+.gallery {
+  background: #fff5e1;
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* --- 店舗情報 --- */
+.info {
+  padding: 80px 10%;
+  background: #fff;
+}
+
+.info-grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-left, .info-right {
+  width: 45%;
+}
+
+/* --- フッター --- */
+footer {
+  background: #5c3a21;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
